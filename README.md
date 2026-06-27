@@ -14,7 +14,7 @@ Slot machine game prototype with reel-style interactions.
 
 SlotForge Slot Game is a slot game project in the TheAdhithyanKR/slotforge-slot-game repository. HTML5 slot machine game built with Phaser and Vite.
 
-The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(@{Path=package.json; Json=}.Path), and the commands below are taken from its scripts.
 
 ## Key Features
 
@@ -29,7 +29,7 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- package.json
 |-- package-lock.json
@@ -38,14 +38,14 @@ The README was written from the repository contents, including its manifest file
 |-- src/index.html
 |-- src/main.js
 |-- vite.config.js
-`
+```
 
 ## Setup
 
-`ash
+```bash
 npm install
 npm run dev
-`
+```
 
 ## What This Project Demonstrates
 
