@@ -1,32 +1,60 @@
+<div align="center">
+
 # SlotForge Slot Game
 
-HTML5 slot machine game built with Phaser and Vite.
+Slot machine game prototype with reel-style interactions.
+
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+
+[Repository](https://github.com/theadhithyankr/slotforge-slot-game)
+
+</div>
+
+## Overview
+
+SlotForge Slot Game is a slot game project in the TheAdhithyanKR/slotforge-slot-game repository. HTML5 slot machine game built with Phaser and Vite.
+
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
 
 ## Key Features
-- HTML5 slot machine game built with Phaser and Vite
-- Package scripts provide reproducible development, build, and preview commands.
+
+- Slot-style spin and result loop
+- Game state organized around reels and outcomes
+- Frontend implementation suitable for browser play
+- Focused demo of animation-ready interaction logic
 
 ## Tech Stack
-- JavaScript/TypeScript
+
 - Vite
-- Phaser
 
 ## Project Structure
-- src/scenes and src/config - game scenes, paytables, reel strips, and runtime configuration.
 
-## Setup and Run
-```bash
-git clone https://github.com/theadhithyankr/slotforge-slot-game.git
-cd slotforge-slot-game
+`	ext
+.
+|-- package.json
+|-- package-lock.json
+|-- README.md
+|-- scripts/simulate.js
+|-- src/index.html
+|-- src/main.js
+|-- vite.config.js
+`
+
+## Setup
+
+`ash
 npm install
 npm run dev
-npm run build
-npm run preview
-```
+`
 
 ## What This Project Demonstrates
-- Building user-facing web applications with component-based UI and modern frontend tooling.
-- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-## Repository
-- GitHub: https://github.com/theadhithyankr/slotforge-slot-game
+- Ability to turn a focused product idea into a working codebase
+- Practical use of the repository's chosen framework and tooling
+- Attention to deployable structure, repeatable setup, and portfolio-ready presentation
+- Project-specific implementation around slot game
+
+## Links
+
+- Repository: [https://github.com/theadhithyankr/slotforge-slot-game](https://github.com/theadhithyankr/slotforge-slot-game)
+- Live demo: [https://slotforge1.vercel.app/](https://slotforge1.vercel.app/)
